@@ -26,6 +26,10 @@ ifeq ($(LANG),en)
   HTMLPATH=$(BUILDDIR)/html/$(LANG)
 endif
 
+ifeq ($(LANG),zh)
+  HTMLPATH=$(BUILDDIR)/html/$(LANG)
+endif
+
 
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest coverage gettext
 

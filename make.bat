@@ -7,6 +7,9 @@ set HTMLPATH=%BUILDDIR%/html
 if "%2" == "en" (
     set HTMLPATH=%BUILDDIR%/html/%2
 )
+if "%2" == "zh" (
+    set HTMLPATH=%BUILDDIR%/html/%2
+)
 
 if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
